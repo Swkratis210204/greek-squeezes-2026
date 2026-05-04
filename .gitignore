@@ -1,51 +1,32 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 .Python
-*.egg
-*.egg-info/
-dist/
-build/
-eggs/
-parts/
-var/
-sdist/
-develop-eggs/
-.installed.cfg
-lib/
-lib64/
 
 # Virtual environments
 .venv/
 venv/
 env/
-ENV/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb_checkpoints
 
 # Claude
 .claude/
 
-# Data & models (too large for git)
+# Data
+Annotations/
+Images/
 *.png
 *.jpg
 *.jpeg
 *.pdf
 *.pt
 *.bin
-*.h5
-Annotations/
-Images/
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # OS
 .DS_Store
@@ -53,6 +34,3 @@ Thumbs.db
 
 # Secrets
 .env
-*.key
-
-Annotations
