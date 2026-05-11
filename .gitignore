@@ -34,3 +34,8 @@ Thumbs.db
 
 # Secrets
 .env
+
+# Aeneas model files
+ithaca_153143996_2.pkl
+iphi.json
+iphi_emb_xid153143996.pkl
